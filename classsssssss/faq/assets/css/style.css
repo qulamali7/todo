@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#faq {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  transition: 400ms all;
+}
+#faq div .h3 {
+  background-color: khaki;
+  padding: 20px;
+  transition: 400ms all;
+}
+#faq div .text {
+  background-color: aqua;
+  overflow: hidden;
+  height: 0px;
+  transition: 400ms all;
+}
+
+.active {
+  height: 80px !important;
+}/*# sourceMappingURL=style.css.map */

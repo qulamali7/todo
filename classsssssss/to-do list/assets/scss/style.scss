@@ -1,0 +1,25 @@
+@import "./reset";
+
+form  {
+  margin: 20px;
+  .input {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s all ease;
+    &:hover {
+      background-color: grey;
+      color: #ffff;
+      cursor: pointer;
+    }
+  }
+}
+ol{
+    margin: 20px;
+}
